@@ -1,16 +1,29 @@
-import React,{Component} from 'react';
-
+import React, {
+	Component
+} from 'react';
+import { Link, IndexLink } from 'react-router';
+import './User.css';
 class User extends Component {
 	/*constructor(){
 		super();
 	}
 */
-	render(){
-		return (
-			  <div>
-                  User
-			  </div>
-			)
+	render() {
+		return(
+			<div id="content">
+				<div className="logininfo">
+			  		<div className='nologin center'>
+			  			<Link to="api/login" className='loginbut'>登录/注册</Link>
+			  		</div>
+			  	</div>
+			  	<div className="buttons">
+			  		<Link className="button deliver" to="#">投递</Link>
+                	<Link className="button interview" to="#">面试</Link>
+                	<Link className="button invitation" to="#">邀约</Link>
+                	<Link className="button collect" to="#">收藏</Link>
+			  	</div>
+			</div>
+		)
 	}
 }
 
