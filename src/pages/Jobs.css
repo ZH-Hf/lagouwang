@@ -1,0 +1,57 @@
+.JobsItem {
+	padding: 14px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.JobsItem .item-logo {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+.JobsItem .item-desc {
+	margin-left: 70px;
+	height: 62px;
+	color: #333;
+}
+
+.JobsItem .item-title {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.JobsItem .item-info {
+    margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+}
+.JobsItem .item-pos {
+    font-size: 1.2rem;
+    float: left;
+    width: 60%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.JobsItem .item-salary {
+    font-size: 1.6rem;
+    color: #00b38a;
+    float: right;
+}
+.JobsItem .item-time {
+    font-size: 1rem;
+    color: #888;
+}
+.JobsItem:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

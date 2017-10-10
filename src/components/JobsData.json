@@ -1,0 +1,229 @@
+{
+	"content": {
+		"data": {
+			"isLogin": false,
+			"page": {
+				"pageSize": 15,
+				"start": "15",
+				"result": [
+					{
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3593802,
+						"positionName": "网络推广",
+						"city": "杭州",
+						"createTime": "今天 08:57",
+						"salary": "5k-10k",
+						"companyId": 243296,
+						"companyLogo": "i/image/M00/67/71/CgpEMlmfyh-AFCQTAAB5h6zFYlQ709.jpg",
+						"companyName": "旗力游戏",
+						"companyFullName": "旗力网络科技（杭州）有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3593299,
+						"positionName": "广告销售经理/高级广告销售经理",
+						"city": "深圳",
+						"createTime": "今天 08:56",
+						"salary": "20k-30k",
+						"companyId": 1145,
+						"companyLogo": "i/image/M00/5B/D2/CgpEMlmJLoqAQUrbAAB6V5u_LC4813.png",
+						"companyName": "虎扑",
+						"companyFullName": "虎扑（上海）文化传播有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3594107,
+						"positionName": "会计核算专员",
+						"city": "上海",
+						"createTime": "今天 08:56",
+						"salary": "5k-8k",
+						"companyId": 1145,
+						"companyLogo": "i/image/M00/5B/D2/CgpEMlmJLoqAQUrbAAB6V5u_LC4813.png",
+						"companyName": "虎扑",
+						"companyFullName": "虎扑（上海）文化传播有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3595100,
+						"positionName": "自动化测试1",
+						"city": "北京",
+						"createTime": "今天 08:55",
+						"salary": "10k-18k",
+						"companyId": 150030,
+						"companyLogo": "i/image/M00/4A/76/CgpEMllli-qAYWKDAAAaNfCDIT0057.png",
+						"companyName": "北京瑞友",
+						"companyFullName": "北京瑞友科技股份有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3591628,
+						"positionName": "战区数据运营专员-武汉",
+						"city": "武汉",
+						"createTime": "今天 08:54",
+						"salary": "5k-8k",
+						"companyId": 44749,
+						"companyLogo": "i/image/M00/B0/8E/Cgp3O1i3_V2AXyQqAAA3iZLdMbU127.jpg",
+						"companyName": "ofo",
+						"companyFullName": "东峡大通（北京）管理咨询有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3602267,
+						"positionName": "用户体验研究实习生(北京）",
+						"city": "北京",
+						"createTime": "今天 08:54",
+						"salary": "5k-10k",
+						"companyId": 140938,
+						"companyLogo": "i/image/M00/49/5C/CgqKkVeXDDiAApOYAABJcWXf7zY879.png",
+						"companyName": "源达投顾",
+						"companyFullName": "河北源达证券投资顾问股份有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3603759,
+						"positionName": "销售经理",
+						"city": "郑州",
+						"createTime": "今天 08:54",
+						"salary": "6K-12K",
+						"companyId": 23912,
+						"companyLogo": "i/image/M00/6F/59/Cgp3O1gkDuqATXRfAAASrOi32Mg378.jpg",
+						"companyName": "好食期&爱抢购",
+						"companyFullName": "上海多维度网络科技股份有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3603035,
+						"positionName": "商务销售BD（郑州）",
+						"city": "郑州",
+						"createTime": "今天 08:54",
+						"salary": "5k-10k",
+						"companyId": 23912,
+						"companyLogo": "i/image/M00/6F/59/Cgp3O1gkDuqATXRfAAASrOi32Mg378.jpg",
+						"companyName": "好食期&爱抢购",
+						"companyFullName": "上海多维度网络科技股份有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3593393,
+						"positionName": "IT运维工程师",
+						"city": "苏州",
+						"createTime": "今天 08:53",
+						"salary": "3k-6k",
+						"companyId": 138731,
+						"companyLogo": "i/image/M00/44/71/CgqKkVeFuT6AdjcDAAADDokrg_4859.png",
+						"companyName": "云融天下",
+						"companyFullName": "北京云融天下科技有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3604087,
+						"positionName": "高级舆情销售经理（政务）",
+						"city": "北京",
+						"createTime": "今天 08:52",
+						"salary": "6k-8k",
+						"companyId": 198841,
+						"companyLogo": "i/image/M00/19/5E/CgpFT1kC_gSAdYZ7AAAZ3MJQ70w110.jpg",
+						"companyName": "海外网",
+						"companyFullName": "海外网传媒有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3604406,
+						"positionName": "高级舆情销售经理（商务）",
+						"city": "北京",
+						"createTime": "今天 08:52",
+						"salary": "6k-8k",
+						"companyId": 198841,
+						"companyLogo": "i/image/M00/19/5E/CgpFT1kC_gSAdYZ7AAAZ3MJQ70w110.jpg",
+						"companyName": "海外网",
+						"companyFullName": "海外网传媒有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3591653,
+						"positionName": "人事经理",
+						"city": "上海",
+						"createTime": "今天 08:51",
+						"salary": "15k-25k",
+						"companyId": 122964,
+						"companyLogo": "i/image/M00/32/EA/CgpFT1k_qn-AAQ_iAAAjiZMB8z4741.jpg",
+						"companyName": "诺奚信息技术有限公司",
+						"companyFullName": "上海诺奚信息技术有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3593075,
+						"positionName": "SEO优化师",
+						"city": "上海",
+						"createTime": "今天 08:50",
+						"salary": "6k-10k",
+						"companyId": 30533,
+						"companyLogo": "i/image/M00/02/71/CgqKkVaPbV2AMOYoAABES1oLpZo428.png",
+						"companyName": "悟空找房",
+						"companyFullName": "上海好居信息科技有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3591775,
+						"positionName": "健检顾问",
+						"city": "深圳",
+						"createTime": "今天 08:50",
+						"salary": "5k-8k",
+						"companyId": 223026,
+						"companyLogo": "i/image/M00/43/28/CgpFT1le39SAXL0nAABVE0_ftrA097.jpg",
+						"companyName": "爱康国宾",
+						"companyFullName": "深圳爱康国宾医院管理有限公司"
+					}, {
+						"logger": {
+							"traceCapable": true,
+							"name": "com.lagou.entity.mobile.MobilePosition"
+						},
+						"positionId": 3591762,
+						"positionName": "销售代表",
+						"city": "深圳",
+						"createTime": "今天 08:50",
+						"salary": "5k-10k",
+						"companyId": 223026,
+						"companyLogo": "i/image/M00/43/28/CgpFT1le39SAXL0nAABVE0_ftrA097.jpg",
+						"companyName": "爱康国宾",
+						"companyFullName": "深圳爱康国宾医院管理有限公司"
+					}
+				],
+				"totalCount": "254675",
+				"pageNo": 2
+			}
+		},
+		"rows": []
+	},
+	"message": "第2页数据,每页15条, 查询成功!",
+	"state": 1
+}

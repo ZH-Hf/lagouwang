@@ -1,0 +1,64 @@
+.Hearder {
+	height: 45px;
+	line-height: 45px;
+	background-color: #00b38a;
+	color: #fff;
+	font-size: 1.8rem;
+	text-align: center;
+	position: relative;
+}
+
+.Footer {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	border-top: 1px solid #e8e8e8;
+	background-color: #f6f6f6;
+	color: #c2cfcc;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	display: -moz-box;
+	display: -webkit-box;
+	display: flex;
+	font-size: 1.6rem;
+}
+
+.Footer .active {
+	color: #00b38a;
+	background-color: #e7f3f0;
+}
+
+.Footer a {
+	/*background: url(../public/icon2.png) no-repeat;*/
+	text-decoration: none;
+	color: #c2cfcc;
+	display: block;
+	height: 100%;
+	flex: 1;
+	text-align: center;
+}
+
+.Footer a span {
+	display: inline-block;
+	width: 18px;
+	height: 17px;
+	margin-bottom: -2px;
+	background: url(icon2.png ) no-repeat;
+	background-size: 250px 250px;
+	background-position-x: -32px;
+	background-position-y: -3.5px;
+}
+
+.Footer a:nth-of-type(2) span {
+	background-position-x: -14px;
+}
+
+.Footer a:nth-of-type(3) span {
+	background-position-x: -52.5px;
+}
+
+.Footer .active span {
+	background-position-y: -20.5px;
+}
