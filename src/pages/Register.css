@@ -1,0 +1,82 @@
+
+.conta{
+	height: 100%;
+	/*background: -webkit-linear-gradient(135deg,#029253,#00887b);*/
+	position: relative;
+}
+.col{
+	background: -webkit-linear-gradient(135deg,#029253,#00887b);		
+}
+.conta input{
+	width: 90%;
+    border: 0;
+    outline: 0;
+    font: 16px "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 6% 5%;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.register{
+	width: 90%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    height: 60px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.conta .register_text {
+    color: #45e3be;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.regist{
+	width: 90%;
+    font-size: 19px;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;
+    margin-left: 20px;
+    background:transparent ;
+    height: 60px;
+    outline: 0;
+}
+.file{
+	 color: #45e3be;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.file a{
+	color:#9bffd3;
+	font-size: 13px;
+}
+.phone{
+	position: absolute;
+	top: 42px;
+	right: 40px;
+	color: red;
+}
+.pwd{
+	position: absolute;
+	top: 270px;
+	right: 40px;
+	color: red;
+	
+}

@@ -4,16 +4,17 @@ import React, {
 import { Link, IndexLink } from 'react-router';
 import './User.css';
 class User extends Component {
-	/*constructor(){
-		super();
+
+	componentWillMount(){
+		document.getElementsByTagName("body")[0].classList.remove("col");
+		
 	}
-*/
 	render() {
 		return(
 			<div id="content">
 				<div className="logininfo">
 			  		<div className='nologin center'>
-			  			<Link to="api/login" className='loginbut'>登录/注册</Link>
+			  			<Link to="login" className='loginbut'>登录/注册</Link>
 			  		</div>
 			  	</div>
 			  	<div className="buttons">
