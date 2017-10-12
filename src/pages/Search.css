@@ -1,0 +1,92 @@
+.linputer{
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.button1{
+	float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+}
+.rinput{
+	height: 45px;
+    margin-left: 89px;
+    position: relative;
+}
+.rinput .inputer {
+    display: block;
+    border: none;
+    padding: 10px 0;
+    height: 25px;
+    line-height: 25px;
+    color: #333;
+    width: 75%;
+    margin: 4% 0 0 5%;
+    font-size: 16px;
+    float: left;
+    outline: none;
+}
+.sear {
+    display:block;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 0;
+ }
+.sear .searchicon {
+    display: block;
+    margin: 14px auto 0 auto;
+    width: 17px;
+    height: 17px;
+    background: url(../icon2.png) no-repeat -14px -2.5px;
+    background-size: 250px 250px;
+}
+.city{
+	width: 100%;
+	position: absolute;
+	top:44px;
+	z-index: 1000;
+	background:white ;
+}
+.nameStr{
+	border-bottom: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    color: #888;
+    text-align: left;
+}
+.cities{
+	float: left;
+}
+.ct{
+	height: auto;
+}
+.ct li{
+	list-style: none;
+	width: 33.33%;
+	height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    min-width: 100px;
+    float: left;
+}
+.ret{
+	font-size: 30px;
+	position: fixed;
+	color: white;
+	top: 0px;
+	z-index: 1002;
+	left: 7px;
+}

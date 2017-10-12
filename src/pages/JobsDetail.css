@@ -1,0 +1,99 @@
+#content {
+	padding-bottom: 68px;
+}
+
+#content .postitle {
+	height: 48px;
+	line-height: 48px;
+	padding: 0 15px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#content .postitle .title {
+	color: #333;
+	font-size: 1.8rem;
+	max-width: 70%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: left;
+}
+
+#content .postitle .collicon {
+	float: right;
+	width: 39px;
+	position: relative;
+	text-align: center;
+	padding: 6px 10px 0 10px;
+	height: 43px;
+}
+
+#content .postitle .notcoll {
+	background: url(icon.png ) no-repeat -170px -41px;
+	background-size: 250px 250px;
+}
+
+#content .postitle .icon {
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin: 0 auto;
+	background: url(icon.png) no-repeat -150px -41px;
+	background-size: 250px 250px;
+}
+
+#content .postitle .text {
+	display: block;
+	color: #888;
+	font-size: 1.1rem;
+	line-height: 30px;
+}
+
+#content .postitle:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#content .detail {
+	border-bottom: 1px solid #e8e8e8;
+	min-height: 10px;
+	padding: 15px;
+}
+
+#content .detail .item {
+	float: left;
+	color: #333;
+	font-size: 1.4rem;
+	position: relative;
+	width: 33.33%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 11px;
+}#content .detail .icon {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+}#content .detail .jobnature .icon {
+    background: url(icon.png ) no-repeat -93px -49px;
+    background-size: 250px 250px;
+}#content .postitle .notcoll {
+    background: url(icon.png ) no-repeat -170px -41px;
+    background-size: 250px 250px;
+}#content .detail .workaddress .icon {
+    background: url(icon.png ) no-repeat -79px -49px;
+    background-size: 250px 250px;
+}#content .detail .salary .icon {
+    background: url(icon.png ) no-repeat -66px -48px;
+    background-size: 250px 250px;
+}#content .detail .workyear .icon {
+    background: url(icon.png ) no-repeat -110.5px -49.5px;
+    background-size: 250px 250px;
+}#content .detail .education .icon {
+    background: url(icon.png ) no-repeat -127.5px -49px;
+    background-size: 250px 250px;
+}

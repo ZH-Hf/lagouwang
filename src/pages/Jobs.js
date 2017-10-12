@@ -25,7 +25,7 @@ class Jobs extends Component {
 			url: "/api/jobs_data",
 			async: true,
 			success: function(data) {
-				console.log(data);
+//				console.log(data);
 				_that.setState({
 					page: _that.state.page + 1,
 					getData: _that.state.getData.concat(data)
@@ -47,7 +47,7 @@ class Jobs extends Component {
 			url: "/api/jobs_data",
 			async: true,
 			success: function(data) {
-				console.log(data);
+//				console.log(data);
 				_that.setState({
 					page: _that.state.page + 1,
 					getData: _that.state.getData.concat(data)

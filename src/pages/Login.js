@@ -1,7 +1,7 @@
 import React, {
 	Component
 } from 'react';
-import axios from "axios";
+//import axios from "axios";
 import { browserHistory } from 'react-router';
 import { Link, IndexLink } from "react-router";
 import "./Login.css";
@@ -42,6 +42,7 @@ class Login extends Component {
 		let username = this.refs.username.value,
 			password = this.refs.password.value,
 			warn = this.refs.usm;
+		console.log(typeof JSON.parse(localStorage.getItem("user")))
 		let users = JSON.parse(localStorage.getItem("user")) || [];
 		let isHave;
 		let currIndex;

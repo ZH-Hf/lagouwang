@@ -26,12 +26,9 @@ class JobsList extends Component {
 		
 		
 	}
-	componentDidMount(){
-		
-	}
+	
 
 	render() {
-		
 		var list = this.props.list.map(function(elem) {
 			return <JobsItem list={elem} key={elem.positionId} />;
 		})
