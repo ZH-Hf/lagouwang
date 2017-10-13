@@ -1,0 +1,24 @@
+.cities-header {
+    border-bottom: 1px solid #e8e8e8;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    color: #888;
+}
+.cities-item {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    min-width: 100px;
+    float: left;
+}
+.cities-item:hover{
+	background: #f0f0f0;
+}
+.city_table{
+	width: 100%;
+	float: left;
+}

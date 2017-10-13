@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './Register.css';
-import {Link,IndexLink} from "react-router";
+import {Link} from "react-router";
 class Register extends Component{
 	constructor(){
 		super();
@@ -13,11 +13,11 @@ class Register extends Component{
 		this.handleClick=this.handleClick.bind(this);
 	}
 	handleChange(event){
-		if(event.target.name=="phone"){
+		if(event.target.name==="phone"){
 			this.setState({
 			phoneNumber:event.target.value,
 		})
-		}else if(event.target.name=="pwd"){
+		}else if(event.target.name==="pwd"){
 			this.setState({
 			password:event.target.value
 		})

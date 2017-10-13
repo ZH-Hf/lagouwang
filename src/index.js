@@ -7,9 +7,11 @@ import App_login from './pages/Login';
 import App_register from './pages/Register';
 import Jobs from './pages/Jobs';
 import Search from './pages/Search';
+import Self from './pages/Self';
 import User from './pages/User';
 import JobDetail from './pages/JobsDetail';
 import registerServiceWorker from './registerServiceWorker';
+import Cities from "./pages/Cities"
 
 //Router：路由配置的容器 ，Route路由配置规则组件
 render(
@@ -18,7 +20,8 @@ render(
         <IndexRoute component={Jobs}/>
         <Route path="search" component={Search} />
         <Route path="jobdetail" component={JobDetail} />
-        <Route path="user/:userId" component={User} />
+        <Route path="user/:userId" component={Self} />
+        <Route path="Cities" component={Cities} />
       </Route>
       <Route path="user/login" component={App_login} />
       <Route path="login" component={App_login} />
